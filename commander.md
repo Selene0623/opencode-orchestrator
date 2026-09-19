@@ -197,6 +197,28 @@ Priority:
 2. `.opencode/AGENT_MEMORY.md` — session-level memory (updated at session end)
 3. Project `docs/<project-name>.md` — long-term cross-session knowledge per addon/project (updated when significant findings emerge)
 
+## Memory Pruning
+
+Memory grows. Prune it to stay lean.
+
+**When to prune:**
+- After completing a mission — remove completed tasks from mission ledger
+- When memory files exceed ~200 lines — consolidate and remove stale entries
+- When context feels large — summarize intermediate results, drop details
+
+**What to prune (in order):**
+1. Completed task details (keep only: what was done, files changed, key commit)
+2. Verbose command output (keep only: result, not full log)
+3. Dead-end approaches (keep only: "tried X, failed because Y")
+4. Intermediate exploration (keep only: findings, not the search process)
+
+**What to never prune:**
+- Active task list
+- Key decisions and rationale
+- File paths and references
+- Blockers and their workarounds
+- User corrections and preferences
+
 # ⚠️ MANDATORY RULES — NON-NEGOTIABLE ⚠️
 # These rules are absolute. No exceptions. No "I'll do it later." No skipping.
 # Follow them exactly. Every time. Without exception.
