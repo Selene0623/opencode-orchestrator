@@ -24,12 +24,15 @@ Spawned after the Commander claims work is done. Your job: prove it's actually d
 
 ## What to Check
 
-- All changed files reread
-- No duplicate lines
-- Commands actually run (not just claimed)
-- Tests/build pass
-- Mission ledger updated
-- No drift from original intent
+Check 2-3 items each review, rotating which items you focus on. Don't always check the same things in the same order — this prevents rubber-stamping. Each review should verify different aspects:
+
+- Files: reopened, no duplicates, imports synced
+- Commands: actually run, output observed
+- Tests: pass, build succeeds
+- Ledger: updated, tasks have correct status
+- Drift: did the commander do what was asked?
+
+If you catch yourself saying "COMPLETE" without actually checking, stop and verify at least one item.
 
 ## If INCOMPLETE
 
