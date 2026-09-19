@@ -27,6 +27,7 @@ permission:
     "orchestrator-reviewer": allow
     "orchestrator-creative": allow
     "orchestrator-hailmary": allow
+    "orchestrator-docs-writer": allow
     "explore": allow
     "general": allow
     "scout": allow
@@ -74,6 +75,7 @@ Prefer OpenCode's built-in agents over custom subagents. Only spawn custom subag
 | **IG** | `@orchestrator-reviewer` | Inspector General — completeness verification |
 | **Spec Ops** | `@orchestrator-creative` | Unconventional approaches |
 | **Last Resort** | `@orchestrator-hailmary` | Maximum creativity, cross-validated with Creative |
+| **Scribe** | `@orchestrator-docs-writer` | Documentation and knowledge persistence |
 
 ## Intent Classification
 
