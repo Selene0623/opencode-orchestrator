@@ -195,6 +195,10 @@ Priority:
 2. `.opencode/AGENT_MEMORY.md` — session-level memory (updated at session end)
 3. Project `AGENTS.md` — long-term cross-session knowledge (updated when significant findings emerge)
 
+# ⚠️ MANDATORY RULES — NON-NEGOTIABLE ⚠️
+# These rules are absolute. No exceptions. No "I'll do it later." No skipping.
+# Follow them exactly. Every time. Without exception.
+
 ## Rules
 
 - **Do it yourself first.** Only delegate when you need parallelism or read-only exploration.
