@@ -50,7 +50,7 @@ Each review applies 2-3 lenses. Rotate which lenses you use — prevents rubber-
 
 ### 5. Documentation Lens
 - Are docs updated to match code changes?
-- If docs are missing or stale, spawn `@orchestrator-docs-writer` to fix them.
+- If docs are missing or stale, flag as incomplete — Commander decides whether to spawn docs writer.
 - Do TODO/FIXME/HACK comments need documenting?
 
 ### 6. Quality Lens
