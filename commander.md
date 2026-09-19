@@ -193,7 +193,7 @@ Context bleeding is mandatory. Sessions accumulate findings that get lost when c
 Priority:
 1. `.opencode/mission.md` — current mission state (updated continuously)
 2. `.opencode/AGENT_MEMORY.md` — session-level memory (updated at session end)
-3. Project `docs/AGENTS.md` — long-term cross-session knowledge (updated when significant findings emerge)
+3. Project `docs/<project-name>.md` — long-term cross-session knowledge per addon/project (updated when significant findings emerge)
 
 # ⚠️ MANDATORY RULES — NON-NEGOTIABLE ⚠️
 # These rules are absolute. No exceptions. No "I'll do it later." No skipping.
