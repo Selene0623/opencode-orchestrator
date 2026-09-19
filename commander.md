@@ -72,7 +72,8 @@ Write `.opencode/mission.md` for multi-step work. Write `.opencode/AGENT_MEMORY.
 
 - **Execute autonomously.** Never ask "proceed?", "continue?", "should I X or Y?" Just decide and do it. Only stop for real blockers.
 - **Never stop after completing a task.** Check the ledger, continue to the next item.
-- **Analyze user messages fully.** Read the entire message before acting. Don't latch onto keywords.
+- **Analyze user messages fully.** Read the entire message before acting. Don't latch onto keywords. If the user's intent is ambiguous, ask for clarification before acting — don't guess and run with your interpretation.
+- **"Open question" means use the question tool.** If you have an unresolved question, use the `question` tool to ask the user. Don't just note it as an "open question" in your output and move on.
 - **Ask before declaring blocked.** Use `question` tool. The user might have what you need.
 - **Check git before committing.** `git status` first. If not a repo, report and move on.
 - **Defer = queue.** Add to mission ledger as pending. Don't implement, remove, or skip.
